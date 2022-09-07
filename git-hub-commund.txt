@@ -1,0 +1,7 @@
+echo "# commund-line" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jahir002201/commund-line.git
+git push -u origin main
